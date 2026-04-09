@@ -28,46 +28,60 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnDisplayImage = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.txtTemp = new System.Windows.Forms.Label();
+            this.imgTemp = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.imgTemp)).BeginInit();
             this.SuspendLayout();
             // 
-            // button1
+            // btnDisplayImage
             // 
-            this.button1.Location = new System.Drawing.Point(448, 259);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(290, 98);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnDisplayImage.Location = new System.Drawing.Point(259, 320);
+            this.btnDisplayImage.Name = "btnDisplayImage";
+            this.btnDisplayImage.Size = new System.Drawing.Size(290, 98);
+            this.btnDisplayImage.TabIndex = 0;
+            this.btnDisplayImage.Text = "button1";
+            this.btnDisplayImage.UseVisualStyleBackColor = true;
+            this.btnDisplayImage.Click += new System.EventHandler(this.button1_Click);
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(143, 135);
+            this.textBox1.Location = new System.Drawing.Point(77, 294);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 20);
             this.textBox1.TabIndex = 1;
             // 
-            // label1
+            // txtTemp
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(131, 65);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(100, 13);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "Enter a temperature";
+            this.txtTemp.AutoSize = true;
+            this.txtTemp.Location = new System.Drawing.Point(74, 233);
+            this.txtTemp.Name = "txtTemp";
+            this.txtTemp.Size = new System.Drawing.Size(100, 13);
+            this.txtTemp.TabIndex = 2;
+            this.txtTemp.Text = "Enter a temperature";
+            // 
+            // imgTemp
+            // 
+            this.imgTemp.Location = new System.Drawing.Point(221, 55);
+            this.imgTemp.Name = "imgTemp";
+            this.imgTemp.Size = new System.Drawing.Size(362, 259);
+            this.imgTemp.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.imgTemp.TabIndex = 3;
+            this.imgTemp.TabStop = false;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.imgTemp);
+            this.Controls.Add(this.txtTemp);
             this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnDisplayImage);
             this.Name = "Form1";
             this.Text = "Form1";
+            ((System.ComponentModel.ISupportInitialize)(this.imgTemp)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -75,9 +89,10 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnDisplayImage;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label txtTemp;
+        private System.Windows.Forms.PictureBox imgTemp;
     }
 }
 

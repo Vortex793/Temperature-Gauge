@@ -65,6 +65,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -78,6 +79,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\warm-temperature-at-spring-with-fine-weather-and-sun-2F5PMMY.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d-hot-emoji-overheated-emoticon-red-face-tongue-stuck-out-icon-isolated-gray-background-rendering-illustration-clipping-306742965.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blue-cold-freezing-face-emoticon-icicles-clinging-to-its-jaw-cheek-freezing-emoticon-139212847.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\210316134738-02-wisdom-project-summer.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Summer.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
