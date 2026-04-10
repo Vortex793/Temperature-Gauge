@@ -118,19 +118,22 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="blue_cold_freezing_face_emoticon_icicles_clinging_to_its_jaw_cheek_freezing_emoticon_139212847" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="cold" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\grassy-field-with-leafless-trees-distance-cloudy-sky-background_181624-4535.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Summer.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="very cold" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\blue-cold-freezing-face-emoticon-icicles-clinging-to-its-jaw-cheek-freezing-emoticon-139212847.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="d_hot_emoji_overheated_emoticon_red_face_tongue_stuck_out_icon_isolated_gray_background_rendering_illustration_clipping_306742965" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Very Warm" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\d-hot-emoji-overheated-emoticon-red-face-tongue-stuck-out-icon-isolated-gray-background-rendering-illustration-clipping-306742965.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Summer" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Summer.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="warm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\210316134738-02-wisdom-project-summer.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="warm_temperature_at_spring_with_fine_weather_and_sun_2F5PMMY" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\warm-temperature-at-spring-with-fine-weather-and-sun-2F5PMMY.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_210316134738_02_wisdom_project_summer" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\210316134738-02-wisdom-project-summer.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

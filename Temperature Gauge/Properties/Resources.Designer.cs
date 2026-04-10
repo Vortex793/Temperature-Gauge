@@ -63,9 +63,9 @@ namespace Temperature_Gauge.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _210316134738_02_wisdom_project_summer {
+        internal static System.Drawing.Bitmap cold {
             get {
-                object obj = ResourceManager.GetObject("_210316134738_02_wisdom_project_summer", resourceCulture);
+                object obj = ResourceManager.GetObject("cold", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,10 +73,9 @@ namespace Temperature_Gauge.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap blue_cold_freezing_face_emoticon_icicles_clinging_to_its_jaw_cheek_freezing_emoticon_139212847 {
+        internal static System.Drawing.Bitmap Hot {
             get {
-                object obj = ResourceManager.GetObject("blue_cold_freezing_face_emoticon_icicles_clinging_to_its_jaw_cheek_freezing_emoti" +
-                        "con_139212847", resourceCulture);
+                object obj = ResourceManager.GetObject("Hot", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -84,10 +83,9 @@ namespace Temperature_Gauge.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap d_hot_emoji_overheated_emoticon_red_face_tongue_stuck_out_icon_isolated_gray_background_rendering_illustration_clipping_306742965 {
+        internal static System.Drawing.Bitmap very_cold {
             get {
-                object obj = ResourceManager.GetObject("d_hot_emoji_overheated_emoticon_red_face_tongue_stuck_out_icon_isolated_gray_back" +
-                        "ground_rendering_illustration_clipping_306742965", resourceCulture);
+                object obj = ResourceManager.GetObject("very cold", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -95,9 +93,19 @@ namespace Temperature_Gauge.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Summer {
+        internal static System.Drawing.Bitmap Very_Warm {
             get {
-                object obj = ResourceManager.GetObject("Summer", resourceCulture);
+                object obj = ResourceManager.GetObject("Very Warm", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap warm {
+            get {
+                object obj = ResourceManager.GetObject("warm", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

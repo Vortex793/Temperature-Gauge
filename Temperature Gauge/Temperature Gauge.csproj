@@ -95,5 +95,8 @@
   <ItemGroup>
     <None Include="Resources\Summer.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grassy-field-with-leafless-trees-distance-cloudy-sky-background_181624-4535.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

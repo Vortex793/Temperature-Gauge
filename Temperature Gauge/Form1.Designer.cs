@@ -37,48 +37,53 @@
             // 
             // btnDisplayImage
             // 
-            this.btnDisplayImage.Location = new System.Drawing.Point(259, 320);
+            this.btnDisplayImage.Location = new System.Drawing.Point(518, 615);
+            this.btnDisplayImage.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.btnDisplayImage.Name = "btnDisplayImage";
-            this.btnDisplayImage.Size = new System.Drawing.Size(290, 98);
+            this.btnDisplayImage.Size = new System.Drawing.Size(580, 188);
             this.btnDisplayImage.TabIndex = 0;
-            this.btnDisplayImage.Text = "button1";
+            this.btnDisplayImage.Text = "Show Image";
             this.btnDisplayImage.UseVisualStyleBackColor = true;
             this.btnDisplayImage.Click += new System.EventHandler(this.button1_Click);
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(77, 294);
+            this.textBox1.Location = new System.Drawing.Point(154, 565);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
+            this.textBox1.Size = new System.Drawing.Size(196, 31);
             this.textBox1.TabIndex = 1;
             // 
             // txtTemp
             // 
             this.txtTemp.AutoSize = true;
-            this.txtTemp.Location = new System.Drawing.Point(74, 233);
+            this.txtTemp.Location = new System.Drawing.Point(148, 448);
+            this.txtTemp.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.txtTemp.Name = "txtTemp";
-            this.txtTemp.Size = new System.Drawing.Size(100, 13);
+            this.txtTemp.Size = new System.Drawing.Size(202, 25);
             this.txtTemp.TabIndex = 2;
             this.txtTemp.Text = "Enter a temperature";
             // 
             // imgTemp
             // 
-            this.imgTemp.Location = new System.Drawing.Point(221, 55);
+            this.imgTemp.Location = new System.Drawing.Point(442, 106);
+            this.imgTemp.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.imgTemp.Name = "imgTemp";
-            this.imgTemp.Size = new System.Drawing.Size(362, 259);
+            this.imgTemp.Size = new System.Drawing.Size(724, 498);
             this.imgTemp.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.imgTemp.TabIndex = 3;
             this.imgTemp.TabStop = false;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1600, 865);
             this.Controls.Add(this.imgTemp);
             this.Controls.Add(this.txtTemp);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.btnDisplayImage);
+            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.Name = "Form1";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.imgTemp)).EndInit();
