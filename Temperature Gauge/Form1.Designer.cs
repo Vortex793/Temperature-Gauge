@@ -37,8 +37,9 @@
             // 
             // btnDisplayImage
             // 
+            this.btnDisplayImage.Font = new System.Drawing.Font("Roboto", 16.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDisplayImage.Location = new System.Drawing.Point(518, 615);
-            this.btnDisplayImage.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnDisplayImage.Margin = new System.Windows.Forms.Padding(6);
             this.btnDisplayImage.Name = "btnDisplayImage";
             this.btnDisplayImage.Size = new System.Drawing.Size(580, 188);
             this.btnDisplayImage.TabIndex = 0;
@@ -48,26 +49,28 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(154, 565);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(109, 563);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(6);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(196, 31);
+            this.textBox1.Size = new System.Drawing.Size(196, 49);
             this.textBox1.TabIndex = 1;
             // 
             // txtTemp
             // 
             this.txtTemp.AutoSize = true;
-            this.txtTemp.Location = new System.Drawing.Point(148, 448);
+            this.txtTemp.Font = new System.Drawing.Font("Roboto", 16.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTemp.Location = new System.Drawing.Point(0, 439);
             this.txtTemp.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.txtTemp.Name = "txtTemp";
-            this.txtTemp.Size = new System.Drawing.Size(202, 25);
+            this.txtTemp.Size = new System.Drawing.Size(421, 52);
             this.txtTemp.TabIndex = 2;
             this.txtTemp.Text = "Enter a temperature";
             // 
             // imgTemp
             // 
             this.imgTemp.Location = new System.Drawing.Point(442, 106);
-            this.imgTemp.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.imgTemp.Margin = new System.Windows.Forms.Padding(6);
             this.imgTemp.Name = "imgTemp";
             this.imgTemp.Size = new System.Drawing.Size(724, 498);
             this.imgTemp.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -78,12 +81,13 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(1600, 865);
             this.Controls.Add(this.imgTemp);
             this.Controls.Add(this.txtTemp);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.btnDisplayImage);
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "Form1";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.imgTemp)).EndInit();

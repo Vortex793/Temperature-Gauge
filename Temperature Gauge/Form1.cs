@@ -13,6 +13,7 @@ namespace Temperature_Gauge
 {
     public partial class Form1 : Form
     {
+        //Curtis Apfelbeck
         public Form1()
         {
             InitializeComponent();
@@ -47,7 +48,7 @@ namespace Temperature_Gauge
             }
             else
             {
-                MessageBox.Show("Please enter a valid number.");
+                MessageBox.Show("Invalid number :(");
             }
         }
     }
