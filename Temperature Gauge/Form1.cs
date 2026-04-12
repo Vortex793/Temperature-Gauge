@@ -51,5 +51,10 @@ namespace Temperature_Gauge
                 MessageBox.Show("Invalid number :(");
             }
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
